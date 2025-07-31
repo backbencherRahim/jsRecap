@@ -54,4 +54,8 @@ const cars = ["volvo", "BMW", "Ford", "Fiat", "Audi"];
 //console.log(text);
 //console.log(typeof text);
 
-document.getElementById("demo1").innerHTML = cars.length;
+//document.getElementById("demo1").innerHTML = cars.length;
+
+for(let i=0; i < cars.length; i++){
+    document.getElementById("demo").innerHTML += cars[i] + "<br>";
+}   
